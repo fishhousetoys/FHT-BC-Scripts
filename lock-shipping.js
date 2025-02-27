@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const label = sameAddressCheckbox.closest('label') || 
                     document.querySelector('label[for="' + sameAddressCheckbox.id + '"]');
       if (label) {
-        label.textContent = 'Billing address will neurodegenerbe the same as shipping address';
+        label.textContent = 'Billing address will be the same as shipping address';
       }
     }
   }
